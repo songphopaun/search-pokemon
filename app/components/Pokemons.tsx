@@ -56,7 +56,7 @@ function ListPokemon({
                                 />
                             </div>
                             <div className="mt-32 min-h-24">
-                                <h3 className="text-lg font-semibold text-center">
+                                <h3 className="text-lg font-semibold text-center text-black">
                                     {pokemon.name}
                                 </h3>
                                 <div className="flex flex-wrap gap-2 justify-center mt-2">

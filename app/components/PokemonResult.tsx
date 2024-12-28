@@ -24,7 +24,7 @@ function PokemonResult({
 
     return (
         <div
-            className={`relative border-2 border-gray-300  rounded-lg shadow-lg p-6 max-w-4xl mx-auto my-10 ${bgClass}`}
+            className={`relative border-2 border-gray-300  rounded-lg shadow-lg p-6 max-w-4xl mx-auto my-10 text-black ${bgClass}`}
         >
             <div className="absolute -bottom-24 -right-24 flex justify-center items-center">
                 <Image
@@ -43,7 +43,7 @@ function PokemonResult({
                     height={200}
                 />
                 <div className="flex-1 text-center md:text-left">
-                    <h1 className="text-3xl font-bold mb-2">{pokemon.name}</h1>
+                    <h1 className="text-3xl font-bold mb-2 ">{pokemon.name}</h1>
                     <div className="flex flex-wrap gap-2 justify-center md:justify-start">
                         {pokemon.types.map((item) => {
                             return (
