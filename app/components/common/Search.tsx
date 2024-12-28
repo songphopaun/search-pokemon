@@ -13,7 +13,7 @@ function Search({ value, onSearch, placeholder }: SearchProps) {
                 placeholder={placeholder || 'Search Pokemon...'}
                 value={value}
                 onChange={(e) => onSearch(e.target.value)}
-                className="w-full p-3 border-2 border-gray-300 rounded-lg outline-none focus:ring-2 focus:ring-gray-700"
+                className="w-full text-black p-3 border-2 border-gray-300 rounded-lg outline-none focus:ring-2 focus:ring-gray-700"
             />
             {value && (
                 <button
