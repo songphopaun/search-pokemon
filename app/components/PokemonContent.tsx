@@ -79,7 +79,7 @@ export default function PokemonContent() {
     }
 
     return (
-        <div className="min-h-screen">
+        <div className="min-h-screen bg-white">
             <CommonLayout
                 pokemon={randomPokemon}
                 searchTerm={searchTerm}
