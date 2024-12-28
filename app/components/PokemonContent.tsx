@@ -79,14 +79,14 @@ export default function PokemonContent() {
     }
 
     return (
-        <div className="min-h-screen bg-white">
+        <div className="min-h-screen overflow-hidden pb-10 bg-white">
             <CommonLayout
                 pokemon={randomPokemon}
                 searchTerm={searchTerm}
                 onSearch={handleSearch}
                 TYPE_COLORS={TYPE_COLORS}
             />
-            <div className="container mx-auto">
+            <div className="container mx-auto ">
                 {pokemonData?.pokemon ? (
                     <PokemonResult
                         pokemon={pokemonData.pokemon}

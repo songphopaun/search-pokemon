@@ -24,7 +24,7 @@ function PokemonResult({
 
     return (
         <div
-            className={`relative border-2 border-gray-300  rounded-lg shadow-lg p-6 max-w-4xl mx-auto my-10 text-black ${bgClass}`}
+            className={`relative border-2 border-gray-300  rounded-lg shadow-lg p-6 max-w-4xl mx-auto my-10 text-black overflow-hidden ${bgClass}`}
         >
             <div className="absolute -bottom-24 -right-24 flex justify-center items-center">
                 <Image
